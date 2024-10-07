@@ -4,33 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aef61bd1-4c13-4430-884c-b1a9633928f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/irene_labs/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Maps/AddressesMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Maps/DownloadsMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Maps/HomePageMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Maps/LoginPageMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Maps/OrderMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/AddressesMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/DownloadsMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/HomePageMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/InvalidLoginMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPageMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/OrderMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/AddressTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/DownloadsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/InvalidLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/LoginPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/OrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/CommonMethods.java" afterDir="false" />
+    <list default="true" id="aef61bd1-4c13-4430-884c-b1a9633928f3" name="Changes" comment="My second commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/ExtentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Runners/maintenance.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Runners/regression.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Runners/smoke.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DownloadsMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DownloadsMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/AddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AddressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/DownloadsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/DownloadsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/InvalidLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/InvalidLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/OrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/DataProvider/regression.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +28,28 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Irene011878"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Irene011878/AutomationPractice.git",
+    "accountId": "3587b5c4-eac6-486d-9d26-8a98243fb43a"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -58,14 +62,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.AutomationPractice [test...].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.AddToCartTest.executor": "Run",
     "TestNG.AddressIncompleteTest.executor": "Run",
     "TestNG.AddressIncompleteTest.testAddressesInfo.executor": "Run",
     "TestNG.AddressTest.executor": "Run",
+    "TestNG.AddressTest.testAddressInfo.executor": "Run",
     "TestNG.AddressesTest.testAddressesInfo.executor": "Run",
+    "TestNG.C:/Users/irene/IdeaProjects/AutomationPractice/src/test/resources/Runners/maintenance.xml.executor": "Run",
+    "TestNG.C:/Users/irene/IdeaProjects/AutomationPractice/src/test/resources/Runners/regression.xml.executor": "Run",
+    "TestNG.C:/Users/irene/IdeaProjects/AutomationPractice/src/test/resources/Runners/smoke.xml.executor": "Run",
+    "TestNG.DownloadsTest.doTheDownload.executor": "Run",
     "TestNG.DownloadsTest.executor": "Run",
     "TestNG.InvalidLoginTest.executor": "Run",
     "TestNG.LogOutTest.executor": "Run",
@@ -74,12 +85,21 @@
     "TestNG.OrderProductTest.executor": "Run",
     "TestNG.OrderProductTest.testOrderProduct.executor": "Run",
     "TestNG.OrderTest.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/irene/IdeaProjects/AutomationPractice"
+    "last_opened_file_path": "C:/Users/irene/IdeaProjects/AutomationPractice/src/test/resources/Runners"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.InvalidLoginTest">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\irene\IdeaProjects\AutomationPractice\src\test\resources\Runners" />
+      <recent name="C:\Users\irene\IdeaProjects\AutomationPractice\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\irene\IdeaProjects\AutomationPractice\src\test\resources\Runners" />
+    </key>
+  </component>
+  <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,6 +110,37 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="AutomationPractice [test...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+                <option value="-Dsurefire.suiteXmlFiles=src/test/resources/DataProvider/regression.xml" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="AddressTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
@@ -176,12 +227,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Maven.AutomationPractice [test...]" />
+      <item itemvalue="TestNG.AddressTest" />
+      <item itemvalue="TestNG.DownloadsTest" />
+      <item itemvalue="TestNG.InvalidLoginTest" />
+      <item itemvalue="TestNG.LoginPageTest" />
+      <item itemvalue="TestNG.OrderTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.InvalidLoginTest" />
         <item itemvalue="TestNG.OrderTest" />
-        <item itemvalue="TestNG.AddressTest" />
         <item itemvalue="TestNG.DownloadsTest" />
+        <item itemvalue="TestNG.AddressTest" />
+        <item itemvalue="TestNG.InvalidLoginTest" />
         <item itemvalue="TestNG.LoginPageTest" />
       </list>
     </recent_temporary>
@@ -195,7 +254,21 @@
       <option name="presentableId" value="Default" />
       <updated>1726443119175</updated>
     </task>
+    <task id="LOCAL-00001" summary="My second commit">
+      <option name="closed" value="true" />
+      <created>1727978875254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727978875255</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="My first commit" />
+    <MESSAGE value="My second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="My second commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -209,15 +282,19 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Tests/DownloadsTest.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="2" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Tests/AddressTest.java</url>
+          <line>22</line>
+          <properties class="Tests.AddressTest" method="testAddressInfo">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Tests/InvalidLoginTest.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/test/java/Pages/DownloadsMethods.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

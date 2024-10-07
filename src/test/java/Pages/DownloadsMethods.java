@@ -16,11 +16,11 @@ public class DownloadsMethods {
 
     public void downloadOne(){
 
-        commonMethods.clickElement(downloadsMap.downloadLink);
-        commonMethods.clickElement(downloadsMap.goShopDwl);
-        commonMethods.clickElement(downloadsMap.seleniumDwl);
-        commonMethods.clickElement(downloadsMap.addSeToBasket);
-        commonMethods.clickElement(downloadsMap.viewBasket);
+        commonMethods.clickElementByJSd(downloadsMap.downloadLink);
+        commonMethods.clickElementByJSd(downloadsMap.goShopDwl);
+        commonMethods.clickElementByJSd(downloadsMap.seleniumDwl);
+        commonMethods.clickElementByJSd(downloadsMap.addSeToBasket);
+        commonMethods.clickElementByJSd(downloadsMap.viewBasket);
         commonMethods.clickElementByJSd(downloadsMap.proceedToCheckOut);
         commonMethods.sendText(downloadsMap.firstName, "Irene");
         commonMethods.sendText(downloadsMap.lastName, "Aguilar");

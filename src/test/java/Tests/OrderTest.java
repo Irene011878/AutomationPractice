@@ -18,16 +18,31 @@ public class OrderTest extends BaseClass {
     OrderMethods orderMethods;
 
 
-    @Test
+    @Test(groups = {"regression","smoke"})
     public void testTheCart(){
+
+        test = extent.createTest("Order Test - Cart verification");
+
         orderMethods = new OrderMethods(commonMethods);
         loginPageMethods= new LoginPageMethods(commonMethods);
 
        loginPageMethods.login();
-       orderMethods.seeOrder();
-        String orderMessageStatus = commonMethods.getElementText(orderMap.orderStatus);
-        Assert.assertEquals(orderMessageStatus, "Order #26486 was placed on September 27, 2024 and is currently Processing.");
+        test.info("User has logged in successfully.");
 
+       orderMethods.seeOrder();
+        test.info("Viewing the order placed.");
+
+        String orderMessageStatus = commonMethods.getElementText(orderMap.orderStatus);
+        test.info("Obtained Order Status Message: " + orderMessageStatus);
+
+    try{
+        Assert.assertEquals(orderMessageStatus, "Order #26543 was placed on October 6, 2024 and is currently Processing.");
+        test.pass("Order Status is correct: " + orderMessageStatus);
+    } catch (AssertionError e) {
+        test.fail("Order Status Validation Error: " + e.getMessage());
+        throw e;
+    }
+    }
 
     }
-}
+
