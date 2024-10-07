@@ -1,9 +1,8 @@
 package Pages;
 
 import Maps.AddressesMap;
-import Maps.HomePageMap;
 import Utils.CommonMethods;
-import org.openqa.selenium.By;
+
 
 public class AddressesMethods {
 

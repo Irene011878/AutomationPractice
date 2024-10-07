@@ -1,6 +1,5 @@
 package Pages;
 
-import Maps.AddressesMap;
 import Maps.DownloadsMap;
 import Utils.CommonMethods;
 
@@ -30,9 +29,6 @@ public class DownloadsMethods {
         commonMethods.sendText(downloadsMap.zipCodeDwl, "25000");
         commonMethods.clickElementByJSd(downloadsMap.payOnDeliveryBtn);
         commonMethods.clickElementByJSd(downloadsMap.placeOrderBtn);
-
-
-
 
     }
 }

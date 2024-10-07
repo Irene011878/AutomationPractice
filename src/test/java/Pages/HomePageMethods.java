@@ -15,8 +15,6 @@ public class HomePageMethods {
 
     public void homePageElement(){
 
-
-
         commonMethods.clickElement(homePageMap.signOutBtn);
 
     }

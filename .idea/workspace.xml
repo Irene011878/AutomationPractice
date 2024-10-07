@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aef61bd1-4c13-4430-884c-b1a9633928f3" name="Changes" comment="My second commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Runners/maintenance.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Runners/regression.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Runners/smoke.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DownloadsMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DownloadsMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/AddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AddressTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/DownloadsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/DownloadsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/InvalidLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/InvalidLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/OrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/OrderMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/OrderMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/DataProvider/regression.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

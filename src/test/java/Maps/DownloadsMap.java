@@ -20,6 +20,4 @@ public class DownloadsMap {
     public By placeOrderBtn = By.xpath("//input[@id='place_order']");
     public By orderMessage = By.xpath("//p[contains(text(),'Thank you. Your order has been received.')]");
 
-
-
 }

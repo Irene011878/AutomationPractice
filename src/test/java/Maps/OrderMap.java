@@ -8,10 +8,4 @@ public class OrderMap {
     public By viewOrder1 = By.xpath("//tbody/tr[1]/td[5]/a[1]");
     public By orderStatus = By.xpath("//div[@id='body']//p[1]");
 
-
-
-
-
-
-
 }
