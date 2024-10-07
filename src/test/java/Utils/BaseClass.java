@@ -13,6 +13,7 @@ import java.lang.reflect.Method;
 import java.time.Duration;
 
 public class BaseClass {
+    //Hola Mundo
 
     public WebDriver driver;
     public CommonMethods commonMethods;
