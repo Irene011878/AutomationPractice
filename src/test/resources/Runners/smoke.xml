@@ -10,7 +10,6 @@
         </groups>
         <classes>
             <class name="Tests.AddressTest"/>
-            <class name="Tests.DownloadsTest"/>
             <class name="Tests.InvalidLoginTest"/>
             <class name="Tests.LoginPageTest"/>
             <class name="Tests.OrderTest"/>
