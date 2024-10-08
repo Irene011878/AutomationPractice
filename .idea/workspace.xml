@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aef61bd1-4c13-4430-884c-b1a9633928f3" name="Changes" comment="My second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/OrderMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/OrderMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/OrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Runners/maintenance.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Runners/maintenance.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/extentReport.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,7 +283,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Pages/DownloadsMethods.java</url>
-          <line>6</line>
+          <line>5</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

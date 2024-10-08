@@ -4,7 +4,7 @@
     <test name="Testing somethign">
         <groups>
             <run>
-                <include name="maintenance  "/>
+                <include name="maintenance"/>
             </run>
         </groups>
         <classes>
