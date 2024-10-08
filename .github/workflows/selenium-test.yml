@@ -47,11 +47,11 @@ jobs:
 
 
       - name: ✅ Run regression tests with Chrome
-        run: mvn test -Dsurefire.suiteXmlFiles=src/test/resources/DataProvider/regression.xml
+        run: mvn test -Dsurefire.suiteXmlFiles=src/test/resources/Runners/regression.xml
 
 
       - name: ✅ Run smoke tests with Chrome
-        run: mvn test -Dsurefire.suiteXmlFiles=src/test/resources/DataProvider/smoke.xml
+        run: mvn test -Dsurefire.suiteXmlFiles=src/test/resources/Runners/smoke.xml
 
 
       - name: ✅ Upload Extent Report
