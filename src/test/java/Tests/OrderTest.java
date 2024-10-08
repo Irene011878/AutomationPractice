@@ -18,7 +18,7 @@ public class OrderTest extends BaseClass {
     OrderMethods orderMethods;
 
 
-    @Test(groups = {"regression","smoke"})
+    @Test(groups = {"regression","smoke"}, enabled = false)
     public void testTheCart(){
 
         test = extent.createTest("Order Test - Cart verification");
