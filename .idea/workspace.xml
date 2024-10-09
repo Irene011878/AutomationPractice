@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aef61bd1-4c13-4430-884c-b1a9633928f3" name="Changes" comment="My second commit" />
+    <list default="true" id="aef61bd1-4c13-4430-884c-b1a9633928f3" name="Changes" comment="Fix modyfying ext rep, regressin and smoke">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Runners/regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Runners/regression.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Runners/smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Runners/smoke.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/extentReport.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +115,7 @@
             <option name="goals">
               <list>
                 <option value="test" />
-                <option value="-Dsurefire.suiteXmlFiles=src/test/resources/DataProvider/regression.xml" />
+                <option value="-Dsurefire.suiteXmlFiles=src/test/resources/Runners/smoke.xml" />
               </list>
             </option>
             <option name="multimoduleDir" />
@@ -222,8 +228,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.OrderTest" />
         <item itemvalue="TestNG.DownloadsTest" />
+        <item itemvalue="TestNG.OrderTest" />
         <item itemvalue="TestNG.AddressTest" />
         <item itemvalue="TestNG.InvalidLoginTest" />
         <item itemvalue="TestNG.LoginPageTest" />
@@ -247,13 +253,103 @@
       <option name="project" value="LOCAL" />
       <updated>1727978875255</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding yaml file 1">
+      <option name="closed" value="true" />
+      <created>1728413058405</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728413058405</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding yaml file change artifact version v4">
+      <option name="closed" value="true" />
+      <created>1728413205541</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728413205541</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding yaml file simple structure">
+      <option name="closed" value="true" />
+      <created>1728424983496</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728424983496</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix changing path of regression and smoke xml">
+      <option name="closed" value="true" />
+      <created>1728426256835</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728426256835</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix changing uses aligment">
+      <option name="closed" value="true" />
+      <created>1728426878200</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728426878200</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix Modifying POM">
+      <option name="closed" value="true" />
+      <created>1728429217702</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728429217702</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix Modifying cache version">
+      <option name="closed" value="true" />
+      <created>1728429842770</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728429842770</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix Adding headlees">
+      <option name="closed" value="true" />
+      <created>1728430217429</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728430217429</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fix takin off extent reports y ignoring test">
+      <option name="closed" value="true" />
+      <created>1728430783601</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728430783601</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fix modyfying ext rep, regressin and smoke">
+      <option name="closed" value="true" />
+      <created>1728431654537</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728431654537</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My first commit" />
     <MESSAGE value="My second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="My second commit" />
+    <MESSAGE value="Adding yaml file 1" />
+    <MESSAGE value="Adding yaml file change artifact version v4" />
+    <MESSAGE value="Adding yaml file simple structure" />
+    <MESSAGE value="Fix changing path of regression and smoke xml" />
+    <MESSAGE value="Fix changing uses aligment" />
+    <MESSAGE value="Fix Modifying POM" />
+    <MESSAGE value="Fix Modifying cache version" />
+    <MESSAGE value="Fix Adding headlees" />
+    <MESSAGE value="Fix takin off extent reports y ignoring test" />
+    <MESSAGE value="Fix modyfying ext rep, regressin and smoke" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix modyfying ext rep, regressin and smoke" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
