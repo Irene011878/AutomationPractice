@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aef61bd1-4c13-4430-884c-b1a9633928f3" name="Changes" comment="Fix modyfying ext rep, regressin and smoke">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utils/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Runners/regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Runners/regression.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Runners/smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Runners/smoke.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/extentReport.html" afterDir="false" />
-    </list>
+    <list default="true" id="aef61bd1-4c13-4430-884c-b1a9633928f3" name="Changes" comment="Fix modyfying ext rep, regressin and smoke" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
