@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aef61bd1-4c13-4430-884c-b1a9633928f3" name="Changes" comment="Fix modyfying ext rep, regressin and smoke" />
+    <list default="true" id="aef61bd1-4c13-4430-884c-b1a9633928f3" name="Changes" comment="Fix modyfying ext rep, regressin and smoke">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/selenium-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/selenium-test.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

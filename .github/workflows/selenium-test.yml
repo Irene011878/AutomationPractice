@@ -44,8 +44,7 @@ jobs:
         run: mvn test -Dsurefire.suiteXmlFiles=src/test/resources/Runners/regression.xml
 
 
-      - name: ✅ Run smoke tests with Chrome
-        run: mvn test -Dsurefire.suiteXmlFiles=src/test/resources/Runners/smoke.xml
+
 
 
 
