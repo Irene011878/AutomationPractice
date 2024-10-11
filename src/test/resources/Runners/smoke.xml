@@ -1,8 +1,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name="Suite smoke test">
-    <test name="Suite Test
-">
+    <test name="Suite Test">
         <groups>
             <run>
                 <include name="smoke"/>

@@ -48,13 +48,18 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version> <!-- Puedes usar esta versión u otra más reciente -->
+        <version>3.9.0</version> <!-- Puedes usar esta versión u otra más reciente -->
         <configuration>
           <source>8</source>  <!-- Esta línea especifica la versión de Java que se usará para compilar -->
           <target>8</target>
         </configuration>
       </plugin>
+
+
+
     </plugins>
   </build>
+
+
 
 </project>
