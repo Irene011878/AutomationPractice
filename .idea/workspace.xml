@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aef61bd1-4c13-4430-884c-b1a9633928f3" name="Changes" comment="Fix modyfying ext rep, regressin and smoke">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/selenium-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/selenium-test.yml" afterDir="false" />
+    <list default="true" id="aef61bd1-4c13-4430-884c-b1a9633928f3" name="Changes" comment="Adding negative TC and Data Provider3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Irene011878"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Irene011878&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Irene011878/AutomationPractice.git",
-    "accountId": "3587b5c4-eac6-486d-9d26-8a98243fb43a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Irene011878/AutomationPractice.git&quot;,
+    &quot;accountId&quot;: &quot;3587b5c4-eac6-486d-9d26-8a98243fb43a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -59,6 +59,7 @@
     "TestNG.AddressIncompleteTest.testAddressesInfo.executor": "Run",
     "TestNG.AddressTest.executor": "Run",
     "TestNG.AddressTest.testAddressInfo.executor": "Run",
+    "TestNG.AddressTest.testInvalidPhoneInAddressInfo.executor": "Run",
     "TestNG.AddressesTest.testAddressesInfo.executor": "Run",
     "TestNG.C:/Users/irene/IdeaProjects/AutomationPractice/src/test/resources/Runners/maintenance.xml.executor": "Run",
     "TestNG.C:/Users/irene/IdeaProjects/AutomationPractice/src/test/resources/Runners/regression.xml.executor": "Run",
@@ -66,15 +67,21 @@
     "TestNG.DownloadsTest.doTheDownload.executor": "Run",
     "TestNG.DownloadsTest.executor": "Run",
     "TestNG.InvalidLoginTest.executor": "Run",
+    "TestNG.InvalidLoginTest.invalidCredentials.executor": "Run",
     "TestNG.LogOutTest.executor": "Run",
     "TestNG.LoginPageTest.executor": "Run",
     "TestNG.LoginPageTest.loginValidCredentials.executor": "Run",
     "TestNG.OrderProductTest.executor": "Run",
     "TestNG.OrderProductTest.testOrderProduct.executor": "Run",
     "TestNG.OrderTest.executor": "Run",
+    "TestNG.OrderTest.testTheCart.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/irene/IdeaProjects/AutomationPractice/src/test/resources/Runners"
+    "last_opened_file_path": "C:/Users/irene/IdeaProjects/AutomationPractice",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -83,6 +90,7 @@
       <recent name="C:\Users\irene\IdeaProjects\AutomationPractice\src\test\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\irene\IdeaProjects\AutomationPractice\src\test\resources" />
       <recent name="C:\Users\irene\IdeaProjects\AutomationPractice\src\test\resources\Runners" />
     </key>
   </component>
@@ -224,8 +232,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DownloadsTest" />
         <item itemvalue="TestNG.OrderTest" />
+        <item itemvalue="TestNG.DownloadsTest" />
         <item itemvalue="TestNG.AddressTest" />
         <item itemvalue="TestNG.InvalidLoginTest" />
         <item itemvalue="TestNG.LoginPageTest" />
@@ -329,7 +337,55 @@
       <option name="project" value="LOCAL" />
       <updated>1728431654537</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fix modyfying ext rep, regressin and smoke">
+      <option name="closed" value="true" />
+      <created>1728613132330</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728613132330</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Adding changes">
+      <option name="closed" value="true" />
+      <created>1728613519053</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728613519053</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Adding negative TC and Data Provider">
+      <option name="closed" value="true" />
+      <created>1728961192687</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728961192687</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Adding negative TC and Data Provider">
+      <option name="closed" value="true" />
+      <created>1728961389298</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728961389299</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Adding negative TC and Data Provider">
+      <option name="closed" value="true" />
+      <created>1728962844206</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728962844206</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Adding negative TC and Data Provider3">
+      <option name="closed" value="true" />
+      <created>1728963875843</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728963875843</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -345,7 +401,10 @@
     <MESSAGE value="Fix Adding headlees" />
     <MESSAGE value="Fix takin off extent reports y ignoring test" />
     <MESSAGE value="Fix modyfying ext rep, regressin and smoke" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix modyfying ext rep, regressin and smoke" />
+    <MESSAGE value="Adding changes" />
+    <MESSAGE value="Adding negative TC and Data Provider" />
+    <MESSAGE value="Adding negative TC and Data Provider3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding negative TC and Data Provider3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -361,7 +420,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/Tests/AddressTest.java</url>
-          <line>22</line>
+          <line>23</line>
           <properties class="Tests.AddressTest" method="testAddressInfo">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -370,8 +429,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Pages/DownloadsMethods.java</url>
-          <line>5</line>
+          <line>8</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Tests/OrderTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Tests/AddressTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
