@@ -24,10 +24,10 @@ public class DownloadsTest extends BaseClass {
         downloadsMethods = new DownloadsMethods(commonMethods);
         loginPageMethods = new LoginPageMethods(commonMethods);
 
-        loginPageMethods.login();
+        loginPageMethods.login(" irene.aguilarperez@hotmail.com", "Pipet@4707");
         test.info("User has logged in successfully.");
 
-        downloadsMethods.downloadOne();
+        downloadsMethods.downloadOne("Irene", "Aguilar", "8441111245", "Indus1265", "Delhi", "25050");
         test.info("File downloaded successfully.");
 
         String orderSuccessfulMessage = commonMethods.getElementText(downloadsMap.orderMessage);

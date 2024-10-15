@@ -3,10 +3,12 @@ package Tests;
 import Maps.HomePageMap;
 import Pages.LoginPageMethods;
 import Utils.BaseClass;
+import Utils.DataProviderClass;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 
 public class LoginPageTest extends BaseClass {
 
@@ -14,9 +16,8 @@ public class LoginPageTest extends BaseClass {
 
     ExtentTest test;
 
-    @Test(groups = {"smoke"})
-
-    public void loginValidCredentials() {
+    @Test(groups = {"regression"}, dataProvider = "loginData", dataProviderClass = DataProviderClass.class)
+    public void loginValidCredentials(String email, String password ) {
 
         test = extent.createTest("Login with Valid Credentials");
 
@@ -24,7 +25,7 @@ public class LoginPageTest extends BaseClass {
         try {
 
         LoginPageMethods loginPageMethods = new LoginPageMethods(commonMethods);
-        loginPageMethods.login();
+        loginPageMethods.login(email, password);
 
             test.log(Status.INFO, "Login attempted with valid credentials");
 

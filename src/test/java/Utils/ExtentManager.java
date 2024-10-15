@@ -18,7 +18,7 @@ public class ExtentManager {
     }
 
     public static ExtentReports createInstance(String filePath) {
-        // Cambiado a ExtentSparkReporter
+
         ExtentSparkReporter sparkReporter = new ExtentSparkReporter(filePath);
         sparkReporter.config().setTheme(Theme.STANDARD);
         sparkReporter.config().setDocumentTitle("Automation Test Report");
@@ -29,7 +29,7 @@ public class ExtentManager {
         extent.setSystemInfo("Host Name", "Localhost");
         extent.setSystemInfo("Environment", "QA");
         extent.setSystemInfo("User", "Irene Aguilar");
-        // extent.setSystemInfo("User", System.getProperty("user.name"));
+
         return extent;
     }
     public static void flushReport() {

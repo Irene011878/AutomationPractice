@@ -4,6 +4,7 @@ import Maps.HomePageMap;
 import Maps.LoginPageMap;
 import Pages.InvalidLoginMethods;
 import Utils.BaseClass;
+import Utils.DataProviderClass;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import org.testng.Assert;
@@ -18,13 +19,13 @@ public class InvalidLoginTest extends BaseClass {
     LoginPageMap loginPageMap = new LoginPageMap();
     ExtentTest test;
 
-    @Test(groups = {"smoke"})
-    public void invalidCredentials (){
+    @Test(groups = {"smoke"}, dataProvider = "loginInvalidData", dataProviderClass = DataProviderClass.class)
+    public void invalidCredentials (String email, String password){
         test = extent.createTest("Invalid Login Test");
 
     try{
         InvalidLoginMethods invalidLoginMethods = new InvalidLoginMethods(commonMethods);
-        invalidLoginMethods.invalidLogin();
+        invalidLoginMethods.invalidLogin(email, password);
 
         test.log(Status.INFO, "Attempting to log in with invalid credentials.");
 
