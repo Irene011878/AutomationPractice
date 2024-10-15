@@ -18,7 +18,7 @@ public class DownloadsTest extends BaseClass {
     DownloadsMethods downloadsMethods;
 
 
-    @Test(groups = {"maintenance"})
+    @Test
     public void doTheDownload() {
 
         downloadsMethods = new DownloadsMethods(commonMethods);
