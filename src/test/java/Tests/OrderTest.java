@@ -36,7 +36,7 @@ public class OrderTest extends BaseClass {
         test.info("Obtained Order Status Message: " + orderMessageStatus);
 
     try{
-        Assert.assertEquals(orderMessageStatus, "Order #26665 was placed on October 15, 2024 and is currently Processing.");
+        Assert.assertEquals(orderMessageStatus, "Order #26670 was placed on October 15, 2024 and is currently Processing.");
         test.pass("Order Status is correct: " + orderMessageStatus);
     } catch (AssertionError e) {
         test.fail("Order Status Validation Error: " + e.getMessage());

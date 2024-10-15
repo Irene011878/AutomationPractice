@@ -47,43 +47,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.AutomationPractice [test...].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.AddToCartTest.executor": "Run",
-    "TestNG.AddressIncompleteTest.executor": "Run",
-    "TestNG.AddressIncompleteTest.testAddressesInfo.executor": "Run",
-    "TestNG.AddressTest.executor": "Run",
-    "TestNG.AddressTest.testAddressInfo.executor": "Run",
-    "TestNG.AddressTest.testInvalidPhoneInAddressInfo.executor": "Run",
-    "TestNG.AddressesTest.testAddressesInfo.executor": "Run",
-    "TestNG.C:/Users/irene/IdeaProjects/AutomationPractice/src/test/resources/Runners/maintenance.xml.executor": "Run",
-    "TestNG.C:/Users/irene/IdeaProjects/AutomationPractice/src/test/resources/Runners/regression.xml.executor": "Run",
-    "TestNG.C:/Users/irene/IdeaProjects/AutomationPractice/src/test/resources/Runners/smoke.xml.executor": "Run",
-    "TestNG.DownloadsTest.doTheDownload.executor": "Run",
-    "TestNG.DownloadsTest.executor": "Run",
-    "TestNG.InvalidLoginTest.executor": "Run",
-    "TestNG.InvalidLoginTest.invalidCredentials.executor": "Run",
-    "TestNG.LogOutTest.executor": "Run",
-    "TestNG.LoginPageTest.executor": "Run",
-    "TestNG.LoginPageTest.loginValidCredentials.executor": "Run",
-    "TestNG.OrderProductTest.executor": "Run",
-    "TestNG.OrderProductTest.testOrderProduct.executor": "Run",
-    "TestNG.OrderTest.executor": "Run",
-    "TestNG.OrderTest.testTheCart.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/irene/IdeaProjects/AutomationPractice",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.AutomationPractice [test...].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.AddToCartTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddressIncompleteTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddressIncompleteTest.testAddressesInfo.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddressTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddressTest.testAddressInfo.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddressTest.testInvalidPhoneInAddressInfo.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AddressesTest.testAddressesInfo.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/irene/IdeaProjects/AutomationPractice/src/test/resources/Runners/maintenance.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/irene/IdeaProjects/AutomationPractice/src/test/resources/Runners/regression.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/irene/IdeaProjects/AutomationPractice/src/test/resources/Runners/smoke.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DownloadsTest.doTheDownload.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DownloadsTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.InvalidLoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.InvalidLoginTest.invalidCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LogOutTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginPageTest.loginValidCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OrderProductTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OrderProductTest.testOrderProduct.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OrderTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OrderTest.testTheCart.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/irene/IdeaProjects/AutomationPractice&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\irene\IdeaProjects\AutomationPractice\src\test\resources\Runners" />
@@ -94,7 +94,7 @@
       <recent name="C:\Users\irene\IdeaProjects\AutomationPractice\src\test\resources\Runners" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.OrderTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
