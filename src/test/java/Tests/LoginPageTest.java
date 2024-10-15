@@ -16,7 +16,7 @@ public class LoginPageTest extends BaseClass {
 
     ExtentTest test;
 
-    @Test(groups = {"regression"}, dataProvider = "loginData", dataProviderClass = DataProviderClass.class)
+    @Test(groups = {"regression","test"}, dataProvider = "loginData", dataProviderClass = DataProviderClass.class)
     public void loginValidCredentials(String email, String password ) {
 
         test = extent.createTest("Login with Valid Credentials");

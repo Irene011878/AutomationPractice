@@ -4,7 +4,7 @@
     <test name="Testing AutomationPractice">
         <groups>
             <run>
-                <include name="regression"/>
+                <include name="test"/>
             </run>
         </groups>
         <classes>
