@@ -25,21 +25,6 @@ jobs:
           java-version: '21'
           distribution: 'adopt'
 
-      - name: ✅ Set up Maven
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'adopt'
-          java-version: '21'
-
-
-
-      - name: ✅ Setup Chrome
-        uses: browser-actions/setup-chrome@v1
-        with:
-          chrome-version: 'latest'
-
-
-
       - name: ✅ Run regression tests with Chrome
         run: mvn test -Dsurefire.suiteXmlFiles=src/test/resources/Runners/regression.xml
 
