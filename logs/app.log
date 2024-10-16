@@ -18211,3 +18211,622 @@ java.lang.Throwable: Runtime.exit(0)
 	at java.base/java.lang.System.exit(System.java:1925) [?:?]
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:71) [testng-rt.jar:?]
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2024-58-15 17:58:06.240 [main] INFO  Utils.BaseClass - Log4j2 is initialized and the log file should be created.
+2024-58-15 17:58:06.321 [main] INFO  Utils.BaseClass - Log4j2 is initialized and the log file should be created.
+2024-58-15 17:58:06.333 [main] INFO  Utils.BaseClass - Log4j2 is initialized and the log file should be created.
+2024-58-15 17:58:06.342 [main] INFO  Utils.BaseClass - Log4j2 is initialized and the log file should be created.
+2024-58-15 17:58:06.727 [main] DEBUG java.lang.Runtime - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)
+	at java.base/java.lang.Shutdown.logRuntimeExit(Shutdown.java:179) [?:?]
+	at java.base/java.lang.Shutdown.exit(Shutdown.java:160) [?:?]
+	at java.base/java.lang.Runtime.exit(Runtime.java:188) [?:?]
+	at java.base/java.lang.System.exit(System.java:1925) [?:?]
+	at org.apache.maven.surefire.booter.ForkedBooter.acknowledgedExit(ForkedBooter.java:381) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:178) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.1.jar:3.5.1]
+2024-59-15 17:59:05.875 [main] INFO  Utils.BaseClass - Log4j2 is initialized and the log file should be created.
+2024-59-15 17:59:05.954 [main] INFO  Utils.BaseClass - Log4j2 is initialized and the log file should be created.
+2024-59-15 17:59:05.963 [main] INFO  Utils.BaseClass - Log4j2 is initialized and the log file should be created.
+2024-59-15 17:59:05.976 [main] INFO  Utils.BaseClass - Log4j2 is initialized and the log file should be created.
+2024-59-15 17:59:06.368 [main] INFO  Utils.BaseClass - The Extent report has been initialized.
+2024-59-15 17:59:06.389 [main] INFO  Utils.BaseClass - Configuring the browser for the test: testAddressInfo
+2024-59-15 17:59:06.485 [main] DEBUG java.lang.ProcessBuilder - ProcessBuilder.start(): pid: 43780, dir: null, cmd: "C:\Users\irene\.cache\selenium\manager\0.4.24\selenium-manager.exe"
+java.lang.RuntimeException: ProcessBuilder.start() debug
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1147) ~[?:?]
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089) ~[?:?]
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:192) ~[selenium-os-4.24.0.jar:?]
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:139) ~[selenium-manager-4.24.0.jar:?]
+	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:247) ~[selenium-manager-4.24.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at Utils.BaseClass.setUp(BaseClass.java:59) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.1.jar:3.5.1]
+2024-59-15 17:59:07.212 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:570a119742c4e3cc, Subject:CN=Actalis Authentication Root CA, O=Actalis S.p.A./03358520967, L=Milan, C=IT, Issuer:CN=Actalis Authentication Root CA, O=Actalis S.p.A./03358520967, L=Milan, C=IT, Key type:RSA, Length:4096, Cert Id:1729119956, Valid from:22/09/11, 6:22 a.m., Valid until:22/09/30, 5:22 a.m.
+2024-59-15 17:59:07.216 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:1, Subject:CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE, Issuer:CN=AddTrust External CA Root, OU=AddTrust External TTP Network, O=AddTrust AB, C=SE, Key type:RSA, Length:2048, Cert Id:3968614624, Valid from:30/05/00, 5:48 a.m., Valid until:30/05/20, 5:48 a.m.
+2024-59-15 17:59:07.217 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:1, Subject:CN=AddTrust Qualified CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE, Issuer:CN=AddTrust Qualified CA Root, OU=AddTrust TTP Network, O=AddTrust AB, C=SE, Key type:RSA, Length:2048, Cert Id:607365522, Valid from:30/05/00, 5:44 a.m., Valid until:30/05/20, 5:44 a.m.
+2024-59-15 17:59:07.219 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:7777062726a9b17c, Subject:CN=AffirmTrust Commercial, O=AffirmTrust, C=US, Issuer:CN=AffirmTrust Commercial, O=AffirmTrust, C=US, Key type:RSA, Length:2048, Cert Id:630485644, Valid from:29/01/10, 8:06 a.m., Valid until:31/12/30, 8:06 a.m.
+2024-59-15 17:59:07.220 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:7c4f04391cd4992d, Subject:CN=AffirmTrust Networking, O=AffirmTrust, C=US, Issuer:CN=AffirmTrust Networking, O=AffirmTrust, C=US, Key type:RSA, Length:2048, Cert Id:651670175, Valid from:29/01/10, 8:08 a.m., Valid until:31/12/30, 8:08 a.m.
+2024-59-15 17:59:07.223 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withRSA, Serial:6d8c1446b1a60aee, Subject:CN=AffirmTrust Premium, O=AffirmTrust, C=US, Issuer:CN=AffirmTrust Premium, O=AffirmTrust, C=US, Key type:RSA, Length:4096, Cert Id:2164683341, Valid from:29/01/10, 8:10 a.m., Valid until:31/12/40, 8:10 a.m.
+2024-59-15 17:59:07.224 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:7497258ac73f7a54, Subject:CN=AffirmTrust Premium ECC, O=AffirmTrust, C=US, Issuer:CN=AffirmTrust Premium ECC, O=AffirmTrust, C=US, Key type:EC, Length:384, Cert Id:2214603510, Valid from:29/01/10, 8:20 a.m., Valid until:31/12/40, 8:20 a.m.
+2024-59-15 17:59:07.226 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:66c9fcf99bf8c0a39e2f0788a43e696365bca, Subject:CN=Amazon Root CA 1, O=Amazon, C=US, Issuer:CN=Amazon Root CA 1, O=Amazon, C=US, Key type:RSA, Length:2048, Cert Id:2822522334, Valid from:25/05/15, 7:00 p.m., Valid until:16/01/38, 6:00 p.m.
+2024-59-15 17:59:07.227 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withRSA, Serial:66c9fd29635869f0a0fe58678f85b26bb8a37, Subject:CN=Amazon Root CA 2, O=Amazon, C=US, Issuer:CN=Amazon Root CA 2, O=Amazon, C=US, Key type:RSA, Length:4096, Cert Id:2528834908, Valid from:25/05/15, 7:00 p.m., Valid until:25/05/40, 6:00 p.m.
+2024-59-15 17:59:07.228 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withECDSA, Serial:66c9fd5749736663f3b0b9ad9e89e7603f24a, Subject:CN=Amazon Root CA 3, O=Amazon, C=US, Issuer:CN=Amazon Root CA 3, O=Amazon, C=US, Key type:EC, Length:256, Cert Id:2732679773, Valid from:25/05/15, 7:00 p.m., Valid until:25/05/40, 6:00 p.m.
+2024-59-15 17:59:07.229 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:66c9fd7c1bb104c2943e5717b7b2cc81ac10e, Subject:CN=Amazon Root CA 4, O=Amazon, C=US, Issuer:CN=Amazon Root CA 4, O=Amazon, C=US, Key type:EC, Length:384, Cert Id:2640694783, Valid from:25/05/15, 7:00 p.m., Valid until:25/05/40, 6:00 p.m.
+2024-59-15 17:59:07.230 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:20000b9, Subject:CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE, Issuer:CN=Baltimore CyberTrust Root, OU=CyberTrust, O=Baltimore, C=IE, Key type:RSA, Length:2048, Cert Id:1425294543, Valid from:12/05/00, 1:46 p.m., Valid until:12/05/25, 5:59 p.m.
+2024-59-15 17:59:07.232 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:2, Subject:CN=Buypass Class 2 Root CA, O=Buypass AS-983163327, C=NO, Issuer:CN=Buypass Class 2 Root CA, O=Buypass AS-983163327, C=NO, Key type:RSA, Length:4096, Cert Id:969960563, Valid from:26/10/10, 3:38 a.m., Valid until:26/10/40, 2:38 a.m.
+2024-59-15 17:59:07.233 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:2, Subject:CN=Buypass Class 3 Root CA, O=Buypass AS-983163327, C=NO, Issuer:CN=Buypass Class 3 Root CA, O=Buypass AS-983163327, C=NO, Key type:RSA, Length:4096, Cert Id:1264269967, Valid from:26/10/10, 3:28 a.m., Valid until:26/10/40, 2:28 a.m.
+2024-59-15 17:59:07.235 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:a3da427ea4b1aeda, Subject:CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU, Issuer:CN=Chambers of Commerce Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU, Key type:RSA, Length:4096, Cert Id:4266703372, Valid from:01/08/08, 7:29 a.m., Valid until:31/07/38, 6:29 a.m.
+2024-59-15 17:59:07.238 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:0, Subject:CN=Chambers of Commerce Root, OU=http://www.chambersign.org, O=AC Camerfirma SA CIF A82743287, C=EU, Issuer:CN=Chambers of Commerce Root, OU=http://www.chambersign.org, O=AC Camerfirma SA CIF A82743287, C=EU, Key type:RSA, Length:2048, Cert Id:1827306452, Valid from:30/09/03, 11:13 a.m., Valid until:30/09/37, 10:13 a.m.
+2024-59-15 17:59:07.240 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:c9cdd3e9d57d23ce, Subject:CN=Global Chambersign Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU, Issuer:CN=Global Chambersign Root - 2008, O=AC Camerfirma S.A., SERIALNUMBER=A82743287, L=Madrid (see current address at www.camerfirma.com/address), C=EU, Key type:RSA, Length:4096, Cert Id:1271252776, Valid from:01/08/08, 7:31 a.m., Valid until:31/07/38, 6:31 a.m.
+2024-59-15 17:59:07.242 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:62533b1470333275cf98d9ab9bfccf8, Subject:CN=Certainly Root E1, O=Certainly, C=US, Issuer:CN=Certainly Root E1, O=Certainly, C=US, Key type:EC, Length:384, Cert Id:792571453, Valid from:31/03/21, 6:00 p.m., Valid until:31/03/46, 6:00 p.m.
+2024-59-15 17:59:07.243 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:8e0ff94b907168653354f4d44439b7e0, Subject:CN=Certainly Root R1, O=Certainly, C=US, Issuer:CN=Certainly Root R1, O=Certainly, C=US, Key type:RSA, Length:4096, Cert Id:2255958535, Valid from:31/03/21, 6:00 p.m., Valid until:31/03/46, 6:00 p.m.
+2024-59-15 17:59:07.244 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:fedce3010fc948ff, Subject:CN=Certigna, O=Dhimyotis, C=FR, Issuer:CN=Certigna, O=Dhimyotis, C=FR, Key type:RSA, Length:2048, Cert Id:3506875840, Valid from:29/06/07, 10:13 a.m., Valid until:29/06/27, 9:13 a.m.
+2024-59-15 17:59:07.245 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:cae91b89f155030da3e6416dc4e3a6e1, Subject:CN=Certigna Root CA, OU=0002 48146308100036, O=Dhimyotis, C=FR, Issuer:CN=Certigna Root CA, OU=0002 48146308100036, O=Dhimyotis, C=FR, Key type:RSA, Length:4096, Cert Id:356684591, Valid from:01/10/13, 3:32 a.m., Valid until:01/10/33, 2:32 a.m.
+2024-59-15 17:59:07.246 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:10020, Subject:CN=Certum CA, O=Unizeto Sp. z o.o., C=PL, Issuer:CN=Certum CA, O=Unizeto Sp. z o.o., C=PL, Key type:RSA, Length:2048, Cert Id:3550516030, Valid from:11/06/02, 5:46 a.m., Valid until:11/06/27, 4:46 a.m.
+2024-59-15 17:59:07.248 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:444c0, Subject:CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL, Issuer:CN=Certum Trusted Network CA, OU=Certum Certification Authority, O=Unizeto Technologies S.A., C=PL, Key type:RSA, Length:2048, Cert Id:2014002193, Valid from:22/10/08, 7:07 a.m., Valid until:31/12/29, 6:07 a.m.
+2024-59-15 17:59:07.250 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:15c8bd65475cafb897005ee406d2bc9d, Subject:OU=ePKI Root Certification Authority, O="Chunghwa Telecom Co., Ltd.", C=TW, Issuer:OU=ePKI Root Certification Authority, O="Chunghwa Telecom Co., Ltd.", C=TW, Key type:RSA, Length:4096, Cert Id:3632331159, Valid from:19/12/04, 8:31 p.m., Valid until:19/12/34, 8:31 p.m.
+2024-59-15 17:59:07.253 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:1, Subject:CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, ST=Greater Manchester, C=GB, Issuer:CN=AAA Certificate Services, O=Comodo CA Limited, L=Salford, ST=Greater Manchester, C=GB, Key type:RSA, Length:2048, Cert Id:3097386402, Valid from:31/12/03, 6:00 p.m., Valid until:31/12/28, 5:59 p.m.
+2024-59-15 17:59:07.256 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:1f47afaa62007050544c019e9b63992a, Subject:CN=COMODO ECC Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB, Issuer:CN=COMODO ECC Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB, Key type:EC, Length:384, Cert Id:1146488932, Valid from:05/03/08, 6:00 p.m., Valid until:18/01/38, 5:59 p.m.
+2024-59-15 17:59:07.258 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withRSA, Serial:4caaf9cadb636fe01ff74ed85b03869d, Subject:CN=COMODO RSA Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB, Issuer:CN=COMODO RSA Certification Authority, O=COMODO CA Limited, L=Salford, ST=Greater Manchester, C=GB, Key type:RSA, Length:4096, Cert Id:1769425049, Valid from:18/01/10, 6:00 p.m., Valid until:18/01/38, 5:59 p.m.
+2024-59-15 17:59:07.259 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:b931c3ad63967ea6723bfc3af9af44b, Subject:CN=DigiCert Assured ID Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Assured ID Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:3909568913, Valid from:01/08/13, 7:00 a.m., Valid until:15/01/38, 6:00 a.m.
+2024-59-15 17:59:07.259 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:ba15afa1ddfa0b54944afcd24a06cec, Subject:CN=DigiCert Assured ID Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Assured ID Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:EC, Length:384, Cert Id:3649430051, Valid from:01/08/13, 7:00 a.m., Valid until:15/01/38, 6:00 a.m.
+2024-59-15 17:59:07.260 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:ce7e0e517d846fe8fe560fc1bf03039, Subject:CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Assured ID Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:3434562768, Valid from:09/11/06, 6:00 p.m., Valid until:09/11/31, 6:00 p.m.
+2024-59-15 17:59:07.261 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:3698fe712d519f3ced0fdb7b1643011, Subject:CN=DigiCert CS ECC P384 Root G5, O="DigiCert, Inc.", C=US, Issuer:CN=DigiCert CS ECC P384 Root G5, O="DigiCert, Inc.", C=US, Key type:EC, Length:384, Cert Id:381797637, Valid from:14/01/21, 6:00 p.m., Valid until:14/01/46, 5:59 p.m.
+2024-59-15 17:59:07.262 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withRSA, Serial:6cee131be6d55c807f7c0c7fb44e620, Subject:CN=DigiCert CS RSA4096 Root G5, O="DigiCert, Inc.", C=US, Issuer:CN=DigiCert CS RSA4096 Root G5, O="DigiCert, Inc.", C=US, Key type:RSA, Length:4096, Cert Id:1193514382, Valid from:14/01/21, 6:00 p.m., Valid until:14/01/46, 5:59 p.m.
+2024-59-15 17:59:07.263 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:83be056904246b1a1756ac95991c74a, Subject:CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Global Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:1341898239, Valid from:09/11/06, 6:00 p.m., Valid until:09/11/31, 6:00 p.m.
+2024-59-15 17:59:07.264 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:33af1e6a711a9a0bb2864b11d09fae5, Subject:CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Global Root G2, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:1136084297, Valid from:01/08/13, 7:00 a.m., Valid until:15/01/38, 6:00 a.m.
+2024-59-15 17:59:07.265 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:55556bcf25ea43535c3a40fd5ab4572, Subject:CN=DigiCert Global Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Global Root G3, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:EC, Length:384, Cert Id:3498998753, Valid from:01/08/13, 7:00 a.m., Valid until:15/01/38, 6:00 a.m.
+2024-59-15 17:59:07.266 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:2ac5c266a0b409b8f0b79f2ae462577, Subject:CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert High Assurance EV Root CA, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:2048, Cert Id:2884286942, Valid from:09/11/06, 6:00 p.m., Valid until:09/11/31, 6:00 p.m.
+2024-59-15 17:59:07.267 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:9e09365acf7d9c8b93e1c0b042a2ef3, Subject:CN=DigiCert TLS ECC P384 Root G5, O="DigiCert, Inc.", C=US, Issuer:CN=DigiCert TLS ECC P384 Root G5, O="DigiCert, Inc.", C=US, Key type:EC, Length:384, Cert Id:3940772018, Valid from:14/01/21, 6:00 p.m., Valid until:14/01/46, 5:59 p.m.
+2024-59-15 17:59:07.268 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withRSA, Serial:8f9b478a8fa7eda6a333789de7ccf8a, Subject:CN=DigiCert TLS RSA4096 Root G5, O="DigiCert, Inc.", C=US, Issuer:CN=DigiCert TLS RSA4096 Root G5, O="DigiCert, Inc.", C=US, Key type:RSA, Length:4096, Cert Id:165956757, Valid from:14/01/21, 6:00 p.m., Valid until:14/01/46, 5:59 p.m.
+2024-59-15 17:59:07.269 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withRSA, Serial:59b1b579e8e2132e23907bda777755c, Subject:CN=DigiCert Trusted Root G4, OU=www.digicert.com, O=DigiCert Inc, C=US, Issuer:CN=DigiCert Trusted Root G4, OU=www.digicert.com, O=DigiCert Inc, C=US, Key type:RSA, Length:4096, Cert Id:1057369358, Valid from:01/08/13, 7:00 a.m., Valid until:15/01/38, 6:00 a.m.
+2024-59-15 17:59:07.271 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:983f3, Subject:CN=D-TRUST Root Class 3 CA 2 2009, O=D-Trust GmbH, C=DE, Issuer:CN=D-TRUST Root Class 3 CA 2 2009, O=D-Trust GmbH, C=DE, Key type:RSA, Length:2048, Cert Id:1430153102, Valid from:05/11/09, 2:35 a.m., Valid until:05/11/29, 2:35 a.m.
+2024-59-15 17:59:07.272 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:983f4, Subject:CN=D-TRUST Root Class 3 CA 2 EV 2009, O=D-Trust GmbH, C=DE, Issuer:CN=D-TRUST Root Class 3 CA 2 EV 2009, O=D-Trust GmbH, C=DE, Key type:RSA, Length:2048, Cert Id:971313728, Valid from:05/11/09, 2:50 a.m., Valid until:05/11/29, 2:50 a.m.
+2024-59-15 17:59:07.272 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:3cf607a968700eda8b84, Subject:CN=emSign ECC Root CA - G3, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN, Issuer:CN=emSign ECC Root CA - G3, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN, Key type:EC, Length:384, Cert Id:3832035707, Valid from:18/02/18, 12:30 p.m., Valid until:18/02/43, 12:30 p.m.
+2024-59-15 17:59:07.274 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:31f5e4620c6c58edd6d8, Subject:CN=emSign Root CA - G1, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN, Issuer:CN=emSign Root CA - G1, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN, Key type:RSA, Length:2048, Cert Id:392709196, Valid from:18/02/18, 12:30 p.m., Valid until:18/02/43, 12:30 p.m.
+2024-59-15 17:59:07.275 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withRSA, Serial:864dbf0fe35ed77d8ed8, Subject:CN=emSign Root CA - G2, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN, Issuer:CN=emSign Root CA - G2, O=eMudhra Technologies Limited, OU=emSign PKI, C=IN, Key type:RSA, Length:4096, Cert Id:3373940126, Valid from:18/02/18, 12:30 p.m., Valid until:18/02/43, 12:30 p.m.
+2024-59-15 17:59:07.276 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:3863def8, Subject:CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net, Issuer:CN=Entrust.net Certification Authority (2048), OU=(c) 1999 Entrust.net Limited, OU=www.entrust.net/CPS_2048 incorp. by ref. (limits liab.), O=Entrust.net, Key type:RSA, Length:2048, Cert Id:3966431214, Valid from:24/12/99, 11:50 a.m., Valid until:24/07/29, 8:15 a.m.
+2024-59-15 17:59:07.281 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:456b5054, Subject:CN=Entrust Root Certification Authority, OU="(c) 2006 Entrust, Inc.", OU=www.entrust.net/CPS is incorporated by reference, O="Entrust, Inc.", C=US, Issuer:CN=Entrust Root Certification Authority, OU="(c) 2006 Entrust, Inc.", OU=www.entrust.net/CPS is incorporated by reference, O="Entrust, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:3033563200, Valid from:27/11/06, 2:23 p.m., Valid until:27/11/26, 2:53 p.m.
+2024-59-15 17:59:07.282 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:a68b79290000000050d091f9, Subject:CN=Entrust Root Certification Authority - EC1, OU="(c) 2012 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Issuer:CN=Entrust Root Certification Authority - EC1, OU="(c) 2012 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Key type:EC, Length:384, Cert Id:924514073, Valid from:18/12/12, 9:25 a.m., Valid until:18/12/37, 9:55 a.m.
+2024-59-15 17:59:07.283 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:4a538c28, Subject:CN=Entrust Root Certification Authority - G2, OU="(c) 2009 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Issuer:CN=Entrust Root Certification Authority - G2, OU="(c) 2009 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:1936920337, Valid from:07/07/09, 12:25 p.m., Valid until:07/12/30, 11:55 a.m.
+2024-59-15 17:59:07.284 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:d9b5437fafa9390f000000005565ad58, Subject:CN=Entrust Root Certification Authority - G4, OU="(c) 2015 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Issuer:CN=Entrust Root Certification Authority - G4, OU="(c) 2015 Entrust, Inc. - for authorized use only", OU=See www.entrust.net/legal-terms, O="Entrust, Inc.", C=US, Key type:RSA, Length:4096, Cert Id:1368037548, Valid from:27/05/15, 6:11 a.m., Valid until:27/12/37, 5:41 a.m.
+2024-59-15 17:59:07.285 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:23456, Subject:CN=GeoTrust Global CA, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Global CA, O=GeoTrust Inc., C=US, Key type:RSA, Length:2048, Cert Id:2266349922, Valid from:20/05/02, 11:00 p.m., Valid until:20/05/22, 11:00 p.m.
+2024-59-15 17:59:07.285 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:18acb56afd69b6153a636cafdafac4a1, Subject:CN=GeoTrust Primary Certification Authority, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Primary Certification Authority, O=GeoTrust Inc., C=US, Key type:RSA, Length:2048, Cert Id:3329622139, Valid from:26/11/06, 6:00 p.m., Valid until:16/07/36, 5:59 p.m.
+2024-59-15 17:59:07.286 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:3cb2f4480a00e2feeb243b5e603ec36b, Subject:CN=GeoTrust Primary Certification Authority - G2, OU=(c) 2007 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Primary Certification Authority - G2, OU=(c) 2007 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US, Key type:EC, Length:384, Cert Id:3180663474, Valid from:04/11/07, 6:00 p.m., Valid until:18/01/38, 5:59 p.m.
+2024-59-15 17:59:07.287 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:15ac6e9419b2794b41f627a9c3180f1f, Subject:CN=GeoTrust Primary Certification Authority - G3, OU=(c) 2008 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Primary Certification Authority - G3, OU=(c) 2008 GeoTrust Inc. - For authorized use only, O=GeoTrust Inc., C=US, Key type:RSA, Length:2048, Cert Id:2964813538, Valid from:01/04/08, 6:00 p.m., Valid until:01/12/37, 5:59 p.m.
+2024-59-15 17:59:07.289 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:1, Subject:CN=GeoTrust Universal CA, O=GeoTrust Inc., C=US, Issuer:CN=GeoTrust Universal CA, O=GeoTrust Inc., C=US, Key type:RSA, Length:4096, Cert Id:313566089, Valid from:03/03/04, 11:00 p.m., Valid until:03/03/29, 11:00 p.m.
+2024-59-15 17:59:07.290 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:40000000001154b5ac394, Subject:CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign Root CA, OU=Root CA, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:2048, Cert Id:536948034, Valid from:01/09/98, 7:00 a.m., Valid until:28/01/28, 6:00 a.m.
+2024-59-15 17:59:07.291 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:11d2bbba336ed4bce62468c50d841d98e843, Subject:CN=GlobalSign Root E46, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign Root E46, O=GlobalSign nv-sa, C=BE, Key type:EC, Length:384, Cert Id:3405603905, Valid from:19/03/19, 6:00 p.m., Valid until:19/03/46, 6:00 p.m.
+2024-59-15 17:59:07.292 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withECDSA, Serial:2a38a41c960a04de42b228a50be8349802, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R4, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R4, Key type:EC, Length:256, Cert Id:2371693751, Valid from:12/11/12, 6:00 p.m., Valid until:18/01/38, 9:14 p.m.
+2024-59-15 17:59:07.292 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:605949e0262ebb55f90a778a71f94ad86c, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R5, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign ECC Root CA - R5, Key type:EC, Length:384, Cert Id:1997048439, Valid from:12/11/12, 6:00 p.m., Valid until:18/01/38, 9:14 p.m.
+2024-59-15 17:59:07.293 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:4000000000121585308a2, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R3, Key type:RSA, Length:2048, Cert Id:733875591, Valid from:18/03/09, 4:00 a.m., Valid until:18/03/29, 4:00 a.m.
+2024-59-15 17:59:07.293 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withRSA, Serial:11d2bbb9d723189e405f0a9d2dd0df2567d1, Subject:CN=GlobalSign Root R46, O=GlobalSign nv-sa, C=BE, Issuer:CN=GlobalSign Root R46, O=GlobalSign nv-sa, C=BE, Key type:RSA, Length:4096, Cert Id:1275948927, Valid from:19/03/19, 6:00 p.m., Valid until:19/03/46, 6:00 p.m.
+2024-59-15 17:59:07.294 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withRSA, Serial:45e6bb038333c3856548e6ff4551, Subject:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R6, Issuer:CN=GlobalSign, O=GlobalSign, OU=GlobalSign Root CA - R6, Key type:RSA, Length:4096, Cert Id:3788339543, Valid from:09/12/14, 6:00 p.m., Valid until:09/12/34, 6:00 p.m.
+2024-59-15 17:59:07.295 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:0, Subject:OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US, Issuer:OU=Go Daddy Class 2 Certification Authority, O="The Go Daddy Group, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:4023522997, Valid from:29/06/04, 12:06 p.m., Valid until:29/06/34, 11:06 a.m.
+2024-59-15 17:59:07.296 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:0, Subject:CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US, Issuer:CN=Go Daddy Root Certificate Authority - G2, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US, Key type:RSA, Length:2048, Cert Id:439600313, Valid from:31/08/09, 7:00 p.m., Valid until:31/12/37, 5:59 p.m.
+2024-59-15 17:59:07.298 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withRSA, Serial:203e5936f31b01349886ba217, Subject:CN=GTS Root R1, O=Google Trust Services LLC, C=US, Issuer:CN=GTS Root R1, O=Google Trust Services LLC, C=US, Key type:RSA, Length:4096, Cert Id:657172038, Valid from:21/06/16, 7:00 p.m., Valid until:21/06/36, 6:00 p.m.
+2024-59-15 17:59:07.300 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withRSA, Serial:203e5aec58d04251aab1125aa, Subject:CN=GTS Root R2, O=Google Trust Services LLC, C=US, Issuer:CN=GTS Root R2, O=Google Trust Services LLC, C=US, Key type:RSA, Length:4096, Cert Id:948387669, Valid from:21/06/16, 7:00 p.m., Valid until:21/06/36, 6:00 p.m.
+2024-59-15 17:59:07.301 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:203e5b882eb20f825276d3d66, Subject:CN=GTS Root R3, O=Google Trust Services LLC, C=US, Issuer:CN=GTS Root R3, O=Google Trust Services LLC, C=US, Key type:EC, Length:384, Cert Id:1163081155, Valid from:21/06/16, 7:00 p.m., Valid until:21/06/36, 6:00 p.m.
+2024-59-15 17:59:07.302 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:203e5c068ef631a9c72905052, Subject:CN=GTS Root R4, O=Google Trust Services LLC, C=US, Issuer:CN=GTS Root R4, O=Google Trust Services LLC, C=US, Key type:EC, Length:384, Cert Id:1326433111, Valid from:21/06/16, 7:00 p.m., Valid until:21/06/36, 6:00 p.m.
+2024-59-15 17:59:07.303 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withECDSA, Serial:0, Subject:CN=Hellenic Academic and Research Institutions ECC RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR, Issuer:CN=Hellenic Academic and Research Institutions ECC RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR, Key type:EC, Length:384, Cert Id:513613456, Valid from:07/07/15, 5:37 a.m., Valid until:30/06/40, 4:37 a.m.
+2024-59-15 17:59:07.303 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:0, Subject:CN=Hellenic Academic and Research Institutions RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR, Issuer:CN=Hellenic Academic and Research Institutions RootCA 2015, O=Hellenic Academic and Research Institutions Cert. Authority, L=Athens, C=GR, Key type:RSA, Length:4096, Cert Id:3491990565, Valid from:07/07/15, 5:11 a.m., Valid until:30/06/40, 4:11 a.m.
+2024-59-15 17:59:07.304 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:a0142800000014523c844b500000002, Subject:CN=IdenTrust Commercial Root CA 1, O=IdenTrust, C=US, Issuer:CN=IdenTrust Commercial Root CA 1, O=IdenTrust, C=US, Key type:RSA, Length:4096, Cert Id:1232565210, Valid from:16/01/14, 12:12 p.m., Valid until:16/01/34, 12:12 p.m.
+2024-59-15 17:59:07.305 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:a0142800000014523cf467c00000002, Subject:CN=IdenTrust Public Sector Root CA 1, O=IdenTrust, C=US, Issuer:CN=IdenTrust Public Sector Root CA 1, O=IdenTrust, C=US, Key type:RSA, Length:4096, Cert Id:2123370772, Valid from:16/01/14, 11:53 a.m., Valid until:16/01/34, 11:53 a.m.
+2024-59-15 17:59:07.306 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:8210cfb0d240e3594463e0bb63828b00, Subject:CN=ISRG Root X1, O=Internet Security Research Group, C=US, Issuer:CN=ISRG Root X1, O=Internet Security Research Group, C=US, Key type:RSA, Length:4096, Cert Id:1521974916, Valid from:04/06/15, 6:04 a.m., Valid until:04/06/35, 5:04 a.m.
+2024-59-15 17:59:07.307 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:41d29dd172eaeea780c12c6ce92f8752, Subject:CN=ISRG Root X2, O=Internet Security Research Group, C=US, Issuer:CN=ISRG Root X2, O=Internet Security Research Group, C=US, Key type:EC, Length:384, Cert Id:3398642244, Valid from:03/09/20, 7:00 p.m., Valid until:17/09/40, 10:00 a.m.
+2024-59-15 17:59:07.309 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:a7ea6df4b449eda6a24859ee6b815d3167fbbb1, Subject:CN=LuxTrust Global Root 2, O=LuxTrust S.A., C=LU, Issuer:CN=LuxTrust Global Root 2, O=LuxTrust S.A., C=LU, Key type:RSA, Length:4096, Cert Id:3055636602, Valid from:05/03/15, 7:21 a.m., Valid until:05/03/35, 7:21 a.m.
+2024-59-15 17:59:07.310 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:bb8, Subject:CN=LuxTrust Global Root, O=LuxTrust s.a., C=LU, Issuer:CN=LuxTrust Global Root, O=LuxTrust s.a., C=LU, Key type:RSA, Length:2048, Cert Id:1714819687, Valid from:17/03/11, 3:51 a.m., Valid until:17/03/21, 3:51 a.m.
+2024-59-15 17:59:07.312 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:66f23daf87de8bb14aea0c573101c2ec, Subject:CN=Microsoft ECC Root Certificate Authority 2017, O=Microsoft Corporation, C=US, Issuer:CN=Microsoft ECC Root Certificate Authority 2017, O=Microsoft Corporation, C=US, Key type:EC, Length:384, Cert Id:3240761285, Valid from:18/12/19, 5:06 p.m., Valid until:18/07/42, 5:16 p.m.
+2024-59-15 17:59:07.313 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withRSA, Serial:1ed397095fd8b4b347701eaabe7f45b3, Subject:CN=Microsoft RSA Root Certificate Authority 2017, O=Microsoft Corporation, C=US, Issuer:CN=Microsoft RSA Root Certificate Authority 2017, O=Microsoft Corporation, C=US, Key type:RSA, Length:4096, Cert Id:2848349048, Valid from:18/12/19, 4:51 p.m., Valid until:18/07/42, 5:00 p.m.
+2024-59-15 17:59:07.314 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:3ab6508b, Subject:CN=QuoVadis Root Certification Authority, OU=Root Certification Authority, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root Certification Authority, OU=Root Certification Authority, O=QuoVadis Limited, C=BM, Key type:RSA, Length:2048, Cert Id:2412561694, Valid from:19/03/01, 12:33 p.m., Valid until:17/03/21, 12:33 p.m.
+2024-59-15 17:59:07.315 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:78585f2ead2c194be3370735341328b596d46593, Subject:CN=QuoVadis Root CA 1 G3, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 1 G3, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:3532531262, Valid from:12/01/12, 11:27 a.m., Valid until:12/01/42, 11:27 a.m.
+2024-59-15 17:59:07.315 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:509, Subject:CN=QuoVadis Root CA 2, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 2, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:338250116, Valid from:24/11/06, 12:27 p.m., Valid until:24/11/31, 12:23 p.m.
+2024-59-15 17:59:07.316 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:445734245b81899b35f2ceb82b3b5ba726f07528, Subject:CN=QuoVadis Root CA 2 G3, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 2 G3, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:696763521, Valid from:12/01/12, 12:59 p.m., Valid until:12/01/42, 12:59 p.m.
+2024-59-15 17:59:07.317 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:5c6, Subject:CN=QuoVadis Root CA 3, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 3, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:1470392860, Valid from:24/11/06, 1:11 p.m., Valid until:24/11/31, 1:06 p.m.
+2024-59-15 17:59:07.318 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:2ef59b0228a7db7affd5a3a9eebd03a0cf126a1d, Subject:CN=QuoVadis Root CA 3 G3, O=QuoVadis Limited, C=BM, Issuer:CN=QuoVadis Root CA 3 G3, O=QuoVadis Limited, C=BM, Key type:RSA, Length:4096, Cert Id:3589344305, Valid from:12/01/12, 2:26 p.m., Valid until:12/01/42, 2:26 p.m.
+2024-59-15 17:59:07.319 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:0, Subject:OU=Security Communication RootCA2, O="SECOM Trust Systems CO.,LTD.", C=JP, Issuer:OU=Security Communication RootCA2, O="SECOM Trust Systems CO.,LTD.", C=JP, Key type:RSA, Length:2048, Cert Id:1521072570, Valid from:29/05/09, 12:00 a.m., Valid until:28/05/29, 11:00 p.m.
+2024-59-15 17:59:07.320 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:cf08e5c0816a5ad427ff0eb271859d0, Subject:CN=SecureTrust CA, O=SecureTrust Corporation, C=US, Issuer:CN=SecureTrust CA, O=SecureTrust Corporation, C=US, Key type:RSA, Length:2048, Cert Id:2034155325, Valid from:07/11/06, 1:31 p.m., Valid until:31/12/29, 1:40 p.m.
+2024-59-15 17:59:07.322 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withECDSA, Serial:75e6dfcbc1685ba8, Subject:CN=SSL.com Root Certification Authority ECC, O=SSL Corporation, L=Houston, ST=Texas, C=US, Issuer:CN=SSL.com Root Certification Authority ECC, O=SSL Corporation, L=Houston, ST=Texas, C=US, Key type:EC, Length:384, Cert Id:2926673683, Valid from:12/02/16, 12:14 p.m., Valid until:12/02/41, 12:14 p.m.
+2024-59-15 17:59:07.323 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:56b629cd34bc78f6, Subject:CN=SSL.com EV Root Certification Authority RSA R2, O=SSL Corporation, L=Houston, ST=Texas, C=US, Issuer:CN=SSL.com EV Root Certification Authority RSA R2, O=SSL Corporation, L=Houston, ST=Texas, C=US, Key type:RSA, Length:4096, Cert Id:1381862403, Valid from:31/05/17, 1:14 p.m., Valid until:30/05/42, 12:14 p.m.
+2024-59-15 17:59:07.324 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:7b2c9bd316803299, Subject:CN=SSL.com Root Certification Authority RSA, O=SSL Corporation, L=Houston, ST=Texas, C=US, Issuer:CN=SSL.com Root Certification Authority RSA, O=SSL Corporation, L=Houston, ST=Texas, C=US, Key type:RSA, Length:4096, Cert Id:156725711, Valid from:12/02/16, 11:39 a.m., Valid until:12/02/41, 11:39 a.m.
+2024-59-15 17:59:07.324 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:0, Subject:OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US, Issuer:OU=Starfield Class 2 Certification Authority, O="Starfield Technologies, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:1825617644, Valid from:29/06/04, 12:39 p.m., Valid until:29/06/34, 11:39 a.m.
+2024-59-15 17:59:07.324 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:0, Subject:CN=Starfield Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US, Issuer:CN=Starfield Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US, Key type:RSA, Length:2048, Cert Id:3268325709, Valid from:31/08/09, 7:00 p.m., Valid until:31/12/37, 5:59 p.m.
+2024-59-15 17:59:07.325 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:0, Subject:CN=Starfield Services Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US, Issuer:CN=Starfield Services Root Certificate Authority - G2, O="Starfield Technologies, Inc.", L=Scottsdale, ST=Arizona, C=US, Key type:RSA, Length:2048, Cert Id:1964785574, Valid from:31/08/09, 7:00 p.m., Valid until:31/12/37, 5:59 p.m.
+2024-59-15 17:59:07.326 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:bb401c43f55e4fb0, Subject:CN=SwissSign Gold CA - G2, O=SwissSign AG, C=CH, Issuer:CN=SwissSign Gold CA - G2, O=SwissSign AG, C=CH, Key type:RSA, Length:4096, Cert Id:1516221943, Valid from:25/10/06, 3:30 a.m., Valid until:25/10/36, 2:30 a.m.
+2024-59-15 17:59:07.328 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:4eb200670c035d4f, Subject:CN=SwissSign Platinum CA - G2, O=SwissSign AG, C=CH, Issuer:CN=SwissSign Platinum CA - G2, O=SwissSign AG, C=CH, Key type:RSA, Length:4096, Cert Id:771312514, Valid from:25/10/06, 3:36 a.m., Valid until:25/10/36, 2:36 a.m.
+2024-59-15 17:59:07.329 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:4f1bd42f54bb2f4b, Subject:CN=SwissSign Silver CA - G2, O=SwissSign AG, C=CH, Issuer:CN=SwissSign Silver CA - G2, O=SwissSign AG, C=CH, Key type:RSA, Length:4096, Cert Id:126726124, Valid from:25/10/06, 3:32 a.m., Valid until:25/10/36, 2:32 a.m.
+2024-59-15 17:59:07.331 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:1675f27d6fe7ae3e4acbe095b059e, Subject:CN=Telia Root CA v2, O=Telia Finland Oyj, C=FI, Issuer:CN=Telia Root CA v2, O=Telia Finland Oyj, C=FI, Key type:RSA, Length:4096, Cert Id:3473063976, Valid from:29/11/18, 5:55 a.m., Valid until:29/11/43, 5:55 a.m.
+2024-59-15 17:59:07.332 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:95be16a0f72e46f17b398272fa8bcd96, Subject:CN=TeliaSonera Root CA v1, O=TeliaSonera, Issuer:CN=TeliaSonera Root CA v1, O=TeliaSonera, Key type:RSA, Length:4096, Cert Id:1495358374, Valid from:18/10/07, 7:00 a.m., Valid until:18/10/32, 6:00 a.m.
+2024-59-15 17:59:07.333 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:344ed55720d5edec49f42fce37db2b6d, Subject:CN=thawte Primary Root CA, OU="(c) 2006 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US, Issuer:CN=thawte Primary Root CA, OU="(c) 2006 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:643000026, Valid from:16/11/06, 6:00 p.m., Valid until:16/07/36, 5:59 p.m.
+2024-59-15 17:59:07.333 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:35fc265cd9844fc93d263d579baed756, Subject:CN=thawte Primary Root CA - G2, OU="(c) 2007 thawte, Inc. - For authorized use only", O="thawte, Inc.", C=US, Issuer:CN=thawte Primary Root CA - G2, OU="(c) 2007 thawte, Inc. - For authorized use only", O="thawte, Inc.", C=US, Key type:EC, Length:384, Cert Id:2068083090, Valid from:04/11/07, 6:00 p.m., Valid until:18/01/38, 5:59 p.m.
+2024-59-15 17:59:07.334 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:600197b746a7eab4b49ad64b2ff790fb, Subject:CN=thawte Primary Root CA - G3, OU="(c) 2008 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US, Issuer:CN=thawte Primary Root CA - G3, OU="(c) 2008 thawte, Inc. - For authorized use only", OU=Certification Services Division, O="thawte, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:1032730720, Valid from:01/04/08, 6:00 p.m., Valid until:01/12/37, 5:59 p.m.
+2024-59-15 17:59:07.334 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:1, Subject:CN=T-TeleSec GlobalRoot Class 2, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE, Issuer:CN=T-TeleSec GlobalRoot Class 2, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE, Key type:RSA, Length:2048, Cert Id:3056503257, Valid from:01/10/08, 5:40 a.m., Valid until:01/10/33, 5:59 p.m.
+2024-59-15 17:59:07.336 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:1, Subject:CN=T-TeleSec GlobalRoot Class 3, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE, Issuer:CN=T-TeleSec GlobalRoot Class 3, OU=T-Systems Trust Center, O=T-Systems Enterprise Services GmbH, C=DE, Key type:RSA, Length:2048, Cert Id:1894096264, Valid from:01/10/08, 5:29 a.m., Valid until:01/10/33, 5:59 p.m.
+2024-59-15 17:59:07.336 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:cbe, Subject:CN=TWCA Global Root CA, OU=Root CA, O=TAIWAN-CA, C=TW, Issuer:CN=TWCA Global Root CA, OU=Root CA, O=TAIWAN-CA, C=TW, Key type:RSA, Length:4096, Cert Id:861175838, Valid from:27/06/12, 1:28 a.m., Valid until:31/12/30, 9:59 a.m.
+2024-59-15 17:59:07.336 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:5c8b99c55a94c5d27156decd8980cc26, Subject:CN=USERTrust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US, Issuer:CN=USERTrust ECC Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US, Key type:EC, Length:384, Cert Id:3329287386, Valid from:31/01/10, 6:00 p.m., Valid until:18/01/38, 5:59 p.m.
+2024-59-15 17:59:07.337 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withRSA, Serial:1fd6d30fca3ca51a81bbc640e35032d, Subject:CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US, Issuer:CN=USERTrust RSA Certification Authority, O=The USERTRUST Network, L=Jersey City, ST=New Jersey, C=US, Key type:RSA, Length:4096, Cert Id:3947601401, Valid from:31/01/10, 6:00 p.m., Valid until:18/01/38, 5:59 p.m.
+2024-59-15 17:59:07.339 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:44be0c8b500024b411d3362de0b35f1b, Subject:CN=UTN-USERFirst-Object, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US, Issuer:CN=UTN-USERFirst-Object, OU=http://www.usertrust.com, O=The USERTRUST Network, L=Salt Lake City, ST=UT, C=US, Key type:RSA, Length:2048, Cert Id:3997913868, Valid from:09/07/99, 1:31 p.m., Valid until:09/07/19, 1:40 p.m.
+2024-59-15 17:59:07.342 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:9b7e0649a33e62b9d5ee90487129ef57, Subject:CN=VeriSign Class 3 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Issuer:CN=VeriSign Class 3 Public Primary Certification Authority - G3, OU="(c) 1999 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:2057300190, Valid from:30/09/99, 7:00 p.m., Valid until:16/07/36, 5:59 p.m.
+2024-59-15 17:59:07.343 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA384withECDSA, Serial:2f80fe238c0e220f486712289187acb3, Subject:CN=VeriSign Class 3 Public Primary Certification Authority - G4, OU="(c) 2007 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Issuer:CN=VeriSign Class 3 Public Primary Certification Authority - G4, OU="(c) 2007 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Key type:EC, Length:384, Cert Id:4163473319, Valid from:04/11/07, 6:00 p.m., Valid until:18/01/38, 5:59 p.m.
+2024-59-15 17:59:07.344 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:18dad19e267de8bb4a2158cdcc6b3b4a, Subject:CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Issuer:CN=VeriSign Class 3 Public Primary Certification Authority - G5, OU="(c) 2006 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:303010488, Valid from:07/11/06, 6:00 p.m., Valid until:16/07/36, 5:59 p.m.
+2024-59-15 17:59:07.345 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA256withRSA, Serial:401ac46421b31321030ebbe4121ac51d, Subject:CN=VeriSign Universal Root Certification Authority, OU="(c) 2008 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Issuer:CN=VeriSign Universal Root Certification Authority, OU="(c) 2008 VeriSign, Inc. - For authorized use only", OU=VeriSign Trust Network, O="VeriSign, Inc.", C=US, Key type:RSA, Length:2048, Cert Id:2318285810, Valid from:01/04/08, 6:00 p.m., Valid until:01/12/37, 5:59 p.m.
+2024-59-15 17:59:07.345 [main] DEBUG jdk.event.security - X509Certificate: Alg:SHA1withRSA, Serial:50946cec18ead59c4dd597ef758fa0ad, Subject:CN=XRamp Global Certification Authority, O=XRamp Security Services Inc, OU=www.xrampsecurity.com, C=US, Issuer:CN=XRamp Global Certification Authority, O=XRamp Security Services Inc, OU=www.xrampsecurity.com, C=US, Key type:RSA, Length:2048, Cert Id:3342493210, Valid from:01/11/04, 11:14 a.m., Valid until:31/12/34, 11:37 p.m.
+2024-59-15 17:59:07.448 [Forwarding newSession on session null to remote] DEBUG java.lang.ProcessBuilder - ProcessBuilder.start(): pid: 36916, dir: null, cmd: "C:\Users\irene\.cache\selenium\chromedriver\win64\129.0.6668.100\chromedriver.exe"
+java.lang.RuntimeException: ProcessBuilder.start() debug
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1147) ~[?:?]
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089) ~[?:?]
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:192) ~[selenium-os-4.24.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:207) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114) ~[selenium-chromium-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at Utils.BaseClass.setUp(BaseClass.java:59) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.1.jar:3.5.1]
+2024-59-15 17:59:07.540 [UrlChecker-2] DEBUG sun.net.www.protocol.http.HttpURLConnection - sun.net.www.MessageHeader@7b16a195 5 pairs: {GET /status HTTP/1.1: null}{User-Agent: Java/22.0.2}{Host: localhost:21572}{Accept: */*}{Connection: keep-alive}
+2024-59-15 17:59:07.543 [UrlChecker-2] DEBUG sun.net.www.protocol.http.HttpURLConnection - sun.net.www.MessageHeader@9d21ae5 4 pairs: {null: HTTP/1.1 200 OK}{Content-Length: 250}{Content-Type: application/json; charset=utf-8}{cache-control: no-cache}
+2024-59-15 17:59:13.688 [main] INFO  Utils.BaseClass - Log4j2 is initialized and the log file should be created.
+2024-59-15 17:59:13.692 [main] INFO  Utils.BaseClass - The browser was configured correctly.
+2024-59-15 17:59:13.708 [main] INFO  Pages.LoginPageMethods - Starting the login process...
+2024-59-15 17:59:13.740 [main] INFO  Pages.LoginPageMethods - User field found.
+2024-59-15 17:59:13.948 [main] INFO  Pages.LoginPageMethods - Username entered.
+2024-59-15 17:59:14.157 [main] INFO  Pages.LoginPageMethods - Password entered.
+2024-59-15 17:59:15.915 [main] INFO  Pages.LoginPageMethods - Login button clicked.
+2024-59-15 17:59:15.918 [main] INFO  Pages.AddressesMethods - Editing address with the following details:
+2024-59-15 17:59:15.919 [main] INFO  Pages.AddressesMethods - First Name: Irene
+2024-59-15 17:59:15.920 [main] INFO  Pages.AddressesMethods - Last Name: Aguilar
+2024-59-15 17:59:15.921 [main] INFO  Pages.AddressesMethods - Phone: 8441111245
+2024-59-15 17:59:15.921 [main] INFO  Pages.AddressesMethods - Street Name: Indus1265
+2024-59-15 17:59:15.921 [main] INFO  Pages.AddressesMethods - City: Delhi
+2024-59-15 17:59:17.799 [main] DEBUG Pages.AddressesMethods - Clicked on the 'Addresses' button
+2024-59-15 17:59:19.983 [main] DEBUG Pages.AddressesMethods - Clicked on the 'Edit Billing Address' button
+2024-59-15 17:59:20.116 [main] DEBUG Pages.AddressesMethods - Entered first name: Irene
+2024-59-15 17:59:20.250 [main] DEBUG Pages.AddressesMethods - Entered last name: Aguilar
+2024-59-15 17:59:20.390 [main] DEBUG Pages.AddressesMethods - Entered phone number: 8441111245
+2024-59-15 17:59:20.555 [main] DEBUG Pages.AddressesMethods - Entered street name: Indus1265
+2024-59-15 17:59:20.700 [main] DEBUG Pages.AddressesMethods - Entered city: Delhi
+2024-59-15 17:59:22.965 [main] DEBUG Pages.AddressesMethods - Clicked on the 'Save Address' button
+2024-59-15 17:59:22.965 [main] INFO  Pages.AddressesMethods - Address successfully updated.
+2024-59-15 17:59:23.015 [main] INFO  Utils.BaseClass - Closing the Browser.
+2024-59-15 17:59:23.080 [UrlChecker-2] DEBUG sun.net.www.protocol.http.HttpURLConnection - sun.net.www.MessageHeader@7c32b600 5 pairs: {GET /shutdown HTTP/1.1: null}{User-Agent: Java/22.0.2}{Host: localhost:21572}{Accept: */*}{Connection: keep-alive}
+2024-59-15 17:59:23.203 [UrlChecker-2] DEBUG sun.net.www.protocol.http.HttpURLConnection - sun.net.www.MessageHeader@6b122ed7 3 pairs: {null: HTTP/1.1 200 OK}{Content-Length: 40}{Content-Type: application/json; charset=utf-8}
+2024-59-15 17:59:23.235 [main] INFO  Utils.BaseClass - Configuring the browser for the test: testInvalidPhoneInAddressInfo
+2024-59-15 17:59:23.242 [main] DEBUG java.lang.ProcessBuilder - ProcessBuilder.start(): pid: 34412, dir: null, cmd: "C:\Users\irene\.cache\selenium\manager\0.4.24\selenium-manager.exe"
+java.lang.RuntimeException: ProcessBuilder.start() debug
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1147) ~[?:?]
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089) ~[?:?]
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:192) ~[selenium-os-4.24.0.jar:?]
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:139) ~[selenium-manager-4.24.0.jar:?]
+	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:247) ~[selenium-manager-4.24.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at Utils.BaseClass.setUp(BaseClass.java:59) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.1.jar:3.5.1]
+2024-59-15 17:59:23.674 [Forwarding newSession on session null to remote] DEBUG java.lang.ProcessBuilder - ProcessBuilder.start(): pid: 35184, dir: null, cmd: "C:\Users\irene\.cache\selenium\chromedriver\win64\129.0.6668.100\chromedriver.exe"
+java.lang.RuntimeException: ProcessBuilder.start() debug
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1147) ~[?:?]
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089) ~[?:?]
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:192) ~[selenium-os-4.24.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:207) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114) ~[selenium-chromium-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at Utils.BaseClass.setUp(BaseClass.java:59) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.1.jar:3.5.1]
+2024-59-15 17:59:23.716 [UrlChecker-2] DEBUG sun.net.www.protocol.http.HttpURLConnection - sun.net.www.MessageHeader@45a4d14 5 pairs: {GET /status HTTP/1.1: null}{User-Agent: Java/22.0.2}{Host: localhost:48684}{Accept: */*}{Connection: keep-alive}
+2024-59-15 17:59:23.719 [UrlChecker-2] DEBUG sun.net.www.protocol.http.HttpURLConnection - sun.net.www.MessageHeader@2018ade8 4 pairs: {null: HTTP/1.1 200 OK}{Content-Length: 250}{Content-Type: application/json; charset=utf-8}{cache-control: no-cache}
+2024-59-15 17:59:29.742 [main] INFO  Utils.BaseClass - Log4j2 is initialized and the log file should be created.
+2024-59-15 17:59:29.742 [main] INFO  Utils.BaseClass - The browser was configured correctly.
+2024-59-15 17:59:29.744 [main] INFO  Pages.LoginPageMethods - Starting the login process...
+2024-59-15 17:59:29.766 [main] INFO  Pages.LoginPageMethods - User field found.
+2024-59-15 17:59:29.953 [main] INFO  Pages.LoginPageMethods - Username entered.
+2024-59-15 17:59:30.152 [main] INFO  Pages.LoginPageMethods - Password entered.
+2024-59-15 17:59:32.944 [main] INFO  Pages.LoginPageMethods - Login button clicked.
+2024-59-15 17:59:32.945 [main] INFO  Pages.AddressesMethods - Editing address with the following details:
+2024-59-15 17:59:32.945 [main] INFO  Pages.AddressesMethods - First Name: Irene
+2024-59-15 17:59:32.945 [main] INFO  Pages.AddressesMethods - Last Name: Aguilar
+2024-59-15 17:59:32.945 [main] INFO  Pages.AddressesMethods - Phone: invalid
+2024-59-15 17:59:32.945 [main] INFO  Pages.AddressesMethods - Street Name: Indus1265
+2024-59-15 17:59:32.945 [main] INFO  Pages.AddressesMethods - City: Delhi
+2024-59-15 17:59:35.082 [main] DEBUG Pages.AddressesMethods - Clicked on the 'Addresses' button
+2024-59-15 17:59:37.554 [main] DEBUG Pages.AddressesMethods - Clicked on the 'Edit Billing Address' button
+2024-59-15 17:59:37.921 [main] DEBUG Pages.AddressesMethods - Entered first name: Irene
+2024-59-15 17:59:38.081 [main] DEBUG Pages.AddressesMethods - Entered last name: Aguilar
+2024-59-15 17:59:38.261 [main] DEBUG Pages.AddressesMethods - Entered phone number: invalid
+2024-59-15 17:59:38.438 [main] DEBUG Pages.AddressesMethods - Entered street name: Indus1265
+2024-59-15 17:59:38.595 [main] DEBUG Pages.AddressesMethods - Entered city: Delhi
+2024-59-15 17:59:40.642 [main] DEBUG Pages.AddressesMethods - Clicked on the 'Save Address' button
+2024-59-15 17:59:40.642 [main] INFO  Pages.AddressesMethods - Address successfully updated.
+2024-59-15 17:59:40.730 [main] INFO  Utils.BaseClass - Closing the Browser.
+2024-59-15 17:59:40.813 [UrlChecker-2] DEBUG sun.net.www.protocol.http.HttpURLConnection - sun.net.www.MessageHeader@49739d5d 5 pairs: {GET /shutdown HTTP/1.1: null}{User-Agent: Java/22.0.2}{Host: localhost:48684}{Accept: */*}{Connection: keep-alive}
+2024-59-15 17:59:41.050 [UrlChecker-2] DEBUG sun.net.www.protocol.http.HttpURLConnection - sun.net.www.MessageHeader@336d7632 3 pairs: {null: HTTP/1.1 200 OK}{Content-Length: 40}{Content-Type: application/json; charset=utf-8}
+2024-59-15 17:59:41.603 [main] INFO  Utils.BaseClass - The Extent report has been generated and finalized.
+2024-59-15 17:59:41.609 [main] INFO  Utils.BaseClass - The Extent report has been initialized.
+2024-59-15 17:59:41.615 [main] INFO  Utils.BaseClass - Configuring the browser for the test: loginValidCredentials
+2024-59-15 17:59:41.626 [main] DEBUG java.lang.ProcessBuilder - ProcessBuilder.start(): pid: 35992, dir: null, cmd: "C:\Users\irene\.cache\selenium\manager\0.4.24\selenium-manager.exe"
+java.lang.RuntimeException: ProcessBuilder.start() debug
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1147) ~[?:?]
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089) ~[?:?]
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:192) ~[selenium-os-4.24.0.jar:?]
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:139) ~[selenium-manager-4.24.0.jar:?]
+	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:247) ~[selenium-manager-4.24.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at Utils.BaseClass.setUp(BaseClass.java:59) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.1.jar:3.5.1]
+2024-59-15 17:59:42.103 [Forwarding newSession on session null to remote] DEBUG java.lang.ProcessBuilder - ProcessBuilder.start(): pid: 37500, dir: null, cmd: "C:\Users\irene\.cache\selenium\chromedriver\win64\129.0.6668.100\chromedriver.exe"
+java.lang.RuntimeException: ProcessBuilder.start() debug
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1147) ~[?:?]
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089) ~[?:?]
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:192) ~[selenium-os-4.24.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:207) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114) ~[selenium-chromium-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at Utils.BaseClass.setUp(BaseClass.java:59) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.1.jar:3.5.1]
+2024-59-15 17:59:42.166 [UrlChecker-2] DEBUG sun.net.www.protocol.http.HttpURLConnection - sun.net.www.MessageHeader@6509bfa6 5 pairs: {GET /status HTTP/1.1: null}{User-Agent: Java/22.0.2}{Host: localhost:34539}{Accept: */*}{Connection: keep-alive}
+2024-59-15 17:59:42.167 [UrlChecker-2] DEBUG sun.net.www.protocol.http.HttpURLConnection - sun.net.www.MessageHeader@9b3902 4 pairs: {null: HTTP/1.1 200 OK}{Content-Length: 250}{Content-Type: application/json; charset=utf-8}{cache-control: no-cache}
+2024-59-15 17:59:48.122 [main] INFO  Utils.BaseClass - Log4j2 is initialized and the log file should be created.
+2024-59-15 17:59:48.122 [main] INFO  Utils.BaseClass - The browser was configured correctly.
+2024-59-15 17:59:48.125 [main] INFO  Pages.LoginPageMethods - Starting the login process...
+2024-59-15 17:59:48.141 [main] INFO  Pages.LoginPageMethods - User field found.
+2024-59-15 17:59:48.311 [main] INFO  Pages.LoginPageMethods - Username entered.
+2024-59-15 17:59:48.446 [main] INFO  Pages.LoginPageMethods - Password entered.
+2024-59-15 17:59:50.672 [main] INFO  Pages.LoginPageMethods - Login button clicked.
+2024-59-15 17:59:53.293 [main] INFO  Utils.BaseClass - Closing the Browser.
+2024-59-15 17:59:53.347 [UrlChecker-2] DEBUG sun.net.www.protocol.http.HttpURLConnection - sun.net.www.MessageHeader@5557d539 5 pairs: {GET /shutdown HTTP/1.1: null}{User-Agent: Java/22.0.2}{Host: localhost:34539}{Accept: */*}{Connection: keep-alive}
+2024-59-15 17:59:53.443 [UrlChecker-2] DEBUG sun.net.www.protocol.http.HttpURLConnection - sun.net.www.MessageHeader@d53e547 3 pairs: {null: HTTP/1.1 200 OK}{Content-Length: 40}{Content-Type: application/json; charset=utf-8}
+2024-59-15 17:59:53.492 [main] INFO  Utils.BaseClass - The Extent report has been generated and finalized.
+2024-59-15 17:59:53.493 [main] INFO  Utils.BaseClass - The Extent report has been initialized.
+2024-59-15 17:59:53.494 [main] INFO  Utils.BaseClass - Configuring the browser for the test: testTheCart
+2024-59-15 17:59:53.500 [main] DEBUG java.lang.ProcessBuilder - ProcessBuilder.start(): pid: 29472, dir: null, cmd: "C:\Users\irene\.cache\selenium\manager\0.4.24\selenium-manager.exe"
+java.lang.RuntimeException: ProcessBuilder.start() debug
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1147) ~[?:?]
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089) ~[?:?]
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:192) ~[selenium-os-4.24.0.jar:?]
+	at org.openqa.selenium.manager.SeleniumManager.runCommand(SeleniumManager.java:139) ~[selenium-manager-4.24.0.jar:?]
+	at org.openqa.selenium.manager.SeleniumManager.getBinaryPaths(SeleniumManager.java:247) ~[selenium-manager-4.24.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:102) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at Utils.BaseClass.setUp(BaseClass.java:59) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.1.jar:3.5.1]
+2024-59-15 17:59:53.909 [Forwarding newSession on session null to remote] DEBUG java.lang.ProcessBuilder - ProcessBuilder.start(): pid: 20988, dir: null, cmd: "C:\Users\irene\.cache\selenium\chromedriver\win64\129.0.6668.100\chromedriver.exe"
+java.lang.RuntimeException: ProcessBuilder.start() debug
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1147) ~[?:?]
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089) ~[?:?]
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:192) ~[selenium-os-4.24.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:207) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174) ~[selenium-remote-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114) ~[selenium-chromium-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72) ~[selenium-chrome-driver-4.24.0.jar:?]
+	at Utils.BaseClass.setUp(BaseClass.java:59) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.1.jar:3.5.1]
+2024-59-15 17:59:53.952 [UrlChecker-2] DEBUG sun.net.www.protocol.http.HttpURLConnection - sun.net.www.MessageHeader@250f8fc4 5 pairs: {GET /status HTTP/1.1: null}{User-Agent: Java/22.0.2}{Host: localhost:39363}{Accept: */*}{Connection: keep-alive}
+2024-59-15 17:59:53.953 [UrlChecker-2] DEBUG sun.net.www.protocol.http.HttpURLConnection - sun.net.www.MessageHeader@7c85f14e 4 pairs: {null: HTTP/1.1 200 OK}{Content-Length: 250}{Content-Type: application/json; charset=utf-8}{cache-control: no-cache}
+2024-00-15 18:00:00.176 [main] INFO  Utils.BaseClass - Log4j2 is initialized and the log file should be created.
+2024-00-15 18:00:00.176 [main] INFO  Utils.BaseClass - The browser was configured correctly.
+2024-00-15 18:00:00.179 [main] INFO  Utils.BaseClass - Log4j2 is initialized and the log file should be created.
+2024-00-15 18:00:00.179 [main] INFO  Pages.LoginPageMethods - Starting the login process...
+2024-00-15 18:00:00.194 [main] INFO  Pages.LoginPageMethods - User field found.
+2024-00-15 18:00:00.362 [main] INFO  Pages.LoginPageMethods - Username entered.
+2024-00-15 18:00:00.493 [main] INFO  Pages.LoginPageMethods - Password entered.
+2024-00-15 18:00:02.427 [main] INFO  Pages.LoginPageMethods - Login button clicked.
+2024-00-15 18:00:02.427 [main] INFO  Pages.OrderMethods - Starting 'seeOrder' process
+2024-00-15 18:00:04.190 [main] DEBUG Pages.OrderMethods - Clicked on 'Order Link'
+2024-00-15 18:00:05.960 [main] DEBUG Pages.OrderMethods - Clicked on 'View Order'
+2024-00-15 18:00:05.960 [main] INFO  Pages.OrderMethods - Completed 'seeOrder' process
+2024-00-15 18:00:06.020 [main] INFO  Utils.BaseClass - Closing the Browser.
+2024-00-15 18:00:06.088 [UrlChecker-2] DEBUG sun.net.www.protocol.http.HttpURLConnection - sun.net.www.MessageHeader@17900dfa 5 pairs: {GET /shutdown HTTP/1.1: null}{User-Agent: Java/22.0.2}{Host: localhost:39363}{Accept: */*}{Connection: keep-alive}
+2024-00-15 18:00:06.172 [UrlChecker-2] DEBUG sun.net.www.protocol.http.HttpURLConnection - sun.net.www.MessageHeader@5fbab92 3 pairs: {null: HTTP/1.1 200 OK}{Content-Length: 40}{Content-Type: application/json; charset=utf-8}
+2024-00-15 18:00:06.233 [main] INFO  Utils.BaseClass - The Extent report has been generated and finalized.
+2024-00-15 18:00:06.426 [main] DEBUG java.lang.Runtime - Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)
+	at java.base/java.lang.Shutdown.logRuntimeExit(Shutdown.java:179) [?:?]
+	at java.base/java.lang.Shutdown.exit(Shutdown.java:160) [?:?]
+	at java.base/java.lang.Runtime.exit(Runtime.java:188) [?:?]
+	at java.base/java.lang.System.exit(System.java:1925) [?:?]
+	at org.apache.maven.surefire.booter.ForkedBooter.acknowledgedExit(ForkedBooter.java:381) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:178) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.5.1.jar:3.5.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.5.1.jar:3.5.1]

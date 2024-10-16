@@ -26,7 +26,7 @@ jobs:
           distribution: 'adopt'
 
       - name: ✅ Run regression tests with Chrome
-        run: mvn test -Dsurefire.suiteXmlFiles=src/test/resources/Runners/regression.xml
+        run: mvn clean test
 
 
 
