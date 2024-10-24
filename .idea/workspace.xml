@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aef61bd1-4c13-4430-884c-b1a9633928f3" name="Changes" comment="Adding negative TC and Data Provider3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="aef61bd1-4c13-4430-884c-b1a9633928f3" name="Changes" comment="Adding negative TC and Data Provider3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +92,7 @@
       <recent name="C:\Users\irene\IdeaProjects\AutomationPractice\src\test\resources\Runners" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.OrderTest">
+  <component name="RunManager" selected="TestNG.AddressTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -232,9 +230,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddressTest" />
         <item itemvalue="TestNG.OrderTest" />
         <item itemvalue="TestNG.DownloadsTest" />
-        <item itemvalue="TestNG.AddressTest" />
         <item itemvalue="TestNG.InvalidLoginTest" />
         <item itemvalue="TestNG.LoginPageTest" />
       </list>

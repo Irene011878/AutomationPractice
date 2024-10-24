@@ -54,7 +54,7 @@ public class BaseClass {
         try {
 
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
+        //options.addArguments("--headless");
         options.addArguments("--windows-size=1920, 1080");
         driver = new ChromeDriver(options);
         driver.manage().deleteAllCookies();
